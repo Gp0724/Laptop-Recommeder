@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advertify</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script defer src="script_fs1.js"></script>
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <h1>Find Best Laptop</h1>
+      <h2>Find the <strong>Laptop</strong> compatible to your <strong>Specs</strong></h2>
+      <p>Powered by AI🤖</p>
+    </section>
+    <section class="ad-input" id="ad-input">
+
+      <label for="purpose">Purpose</label>
+      <input type="text" placeholder="Gaming | Coding | Editing" id="purpose">
+
+      <label for="ram">Ram</label>
+      <input type="text" placeholder="8GB | 16GB | 32GB" id="ram">
+
+      <label for="storage">Storage</label>
+      <input type="text" placeholder="256GB SSD | 512GB SSD | 1TB HDD" id="storage">
+
+      <label for="desc">Description</label>
+      <textarea placeholder="Describe your usage, e.g., photo editing, gaming..." id="desc"></textarea>
+      
+      <button id="submit-btn">Find Laptops</button>
+    </section>
+    <section class="ad-output" id="ad-output" style="display:none;">
+      <h4> </h4>
+      <h2>Ranking</h2>
+    </section>
+    
+  </main>
+</body>
+</html>
