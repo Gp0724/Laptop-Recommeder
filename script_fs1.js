@@ -1,5 +1,5 @@
 // Replace "YOUR_API_KEY" with your actual Gemini API key
-const API_KEY = "AIzaSyBPYvZ6tWKBLdl6vIqeX2EnMKuI3pZVx6Q";
+const API_KEY = "YOUR GEMINI API KEY";
 
 const submitButton = document.getElementById("submit-btn");
 const purposeInput = document.getElementById("purpose");
